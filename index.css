@@ -1,0 +1,61 @@
+*{
+    background-color: rgb(211, 250, 255);
+    font-family: 'Courier New', Courier, monospace;
+}
+#heading{
+    color: white;
+    text-align: center;
+    background-color: #4CAF50;
+    font-style: italic;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 0;
+    font-size: 50px;
+}
+.textbox{
+    width: fit-content;
+    display: flex;
+    position: relative;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    margin-top: 20px;
+    border-radius: 20px;
+}
+textarea{
+    background-color: white;
+    border-radius: 10px;
+    font-size: large;
+}
+.button{
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    margin-top: 10px;
+    background-color: #4CAF50; /* Green */
+    border: 1px solid #094204;
+    border-radius: 10px;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+.result{
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #4CAF50;
+    padding: 5px;
+    border-radius: 10px;
+
+}
+#json-renderer{
+    color: #000000;
+    border-radius: 10px;
+    
+}
